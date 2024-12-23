@@ -1,3 +1,7 @@
 As a User 
 I want to add a list of numbers together
 So that I can see the sum of those numbers.
+
+As a User
+I want to check the sum
+So that I can see if the number is odd or even
