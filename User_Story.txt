@@ -5,3 +5,11 @@ So that I can see the sum of those numbers.
 As a User
 I want to check the sum
 So that I can see if the number is odd or even
+
+Given the user has inputted two numbers
+When the user's sum computed as odd
+Then the program should output False.
+
+Given the user has inputted two numbers.
+When the user's sum computed as even.
+Then the program should output True.
