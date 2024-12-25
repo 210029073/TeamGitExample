@@ -1,0 +1,11 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: list files
+        run: | 
+          echo Listing Files
+          ls
+          
