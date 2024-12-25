@@ -1,0 +1,12 @@
+name: Run basic math
+on: workflow_dispatch
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: list files
+      - run: |
+          echo Listing Files
+          ls
+          
