@@ -6,7 +6,7 @@ jobs:
     
     steps:
       - name: list files
-      - run: |
+      - run: | 
           echo Listing Files
           ls
           
